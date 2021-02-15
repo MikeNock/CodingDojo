@@ -1,0 +1,16 @@
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("A");
+  var t = document.createTextNode("Tutorials");
+  x.setAttribute("href", "https://www.w3schools.com");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+
+
+
+

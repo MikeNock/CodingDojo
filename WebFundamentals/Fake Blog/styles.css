@@ -1,0 +1,42 @@
+.headerDiv {
+    border:5px outset grey;
+    background-color: lightblue;
+    text-align: center;
+    font-stretch: expanded;
+}
+
+.introDiv {
+    border:5px outset grey;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.cryptoGainDiv {
+    border:5px inset black;
+    background-color: white;
+    text-align: center;
+}
+
+.bodyDiv {
+    border:5px outset lightgrey;
+    background-color: white;
+    text-align: center;
+}
+
+.subscribeDiv {
+    border:5px outset lightblue;
+    background-color: white;
+    text-align: center;
+}
+
+.surveyDiv {
+    border:5px outset grey;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.footerDiv {
+    border:5px outset grey;
+    background-color: lightblue;
+    text-align: center;
+}
