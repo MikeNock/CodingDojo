@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    background: #f7f7f7;
+    width: 970px;
+    height: 1050px;
+}
+
+.header {
+    margin: 5px;
+}
+
+.header h1 {
+    font-family: cursive;
+    display: inline-flex;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.header h3 {
+    display: inline-flex;
+    margin-left: 450px;
+    justify-content: center;
+}
+
+
+.photo_of_me {
+    width: 400px;
+    margin: 20px;
+    border: 5px solid rgb(192,192,192);
+}
+
+.container {
+    width: 970px;
+    height: 925px;
+    background: rgb(90,69,79);
+    background: radial-gradient(circle, rgba(90,69,79,0.6446953781512605) 0%, rgba(90,69,79,1) 82%);
+}
+
+.about  {
+    width: 460px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px 20px 35px;
+    background-color: #f5f2f5;
+    height: 273.16px;
+}
+
+.about h4 {
+    background: rgb(116,115,126);
+    background: linear-gradient(0deg, rgba(116,115,126,1) 41%, rgba(135,133,147,1) 77%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about p, .about h4, .about a {
+    padding: 10px;
+}
+
+.content {
+    width: 300px;
+    background-color: #f5f2f5;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: inline-block;
+    /* text-align: justify; */
+    vertical-align: top;
+}
+
+.content h4, .content h5 {
+    background: rgb(116,115,126);
+    background: linear-gradient(0deg, rgba(116,115,126,1) 41%, rgba(135,133,147,1) 77%);
+    color: white;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content p {
+    padding: 10px;
+    height: 182px;
+}
+
+.content button {
+    background-color: rgb(64,125,97);
+    color: white;
+    margin: 7px 0px 10px 100px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px black;
+}
+
+.main-image {
+    width: 300px;
+}
+
+.tech img {
+    width: 40px;
+    padding: 5px;
+    table-layout: auto;
+}
+.footer {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.social img, .social p {
+    width: 15px;
+    display: inline-block;
+    justify-content: center;
+    padding-top: 10px;
+}
