@@ -1,0 +1,44 @@
+.header {
+    display: block;
+    background-color: rgb(207,48,54);
+    border-radius: 0.5em;
+    padding: 5px;
+    color: rgb(194,214,235);
+    margin: 5px;
+    width: 970px;
+}
+
+.sidebar {
+    background-color: rgb(41,125,140);
+    display: inline-block;
+    border-radius: 0.5em;
+    padding: 5px;
+    color: rgb(194,214,235);
+    text-align: left;
+    margin: 5px;
+    vertical-align: top;
+}
+.body {
+    background-color: rgb(14,24,34);
+    border-radius: 0.5em;
+    padding: 5px;
+    color: rgb(194,214,235);
+    display: inline-block;
+    width: 740px;
+    vertical-align: top;
+}
+
+.footer {
+    background-color: rgb(93,102,115);
+    border-radius: 0.5em;
+    padding: 5px;
+    color: rgb(194,214,235);
+    width: 970px;
+    margin: 5px;
+}
+#background {
+    background-color: rgb(27,51,93);
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
