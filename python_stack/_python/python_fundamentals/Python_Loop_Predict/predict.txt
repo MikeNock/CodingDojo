@@ -1,0 +1,28 @@
+1) 1,2,3,4,5,6,7,8,9
+Cycle through range from 1-10, printing each number at increments of 1
+
+2) 1,4,7
+Cycle through 1-10 at increments of 3
+
+3) 0,1,2,3,4
+There's an elif but it never gets activated.
+
+4) 20,17,14,11,8,5,2
+Counting down
+
+5) London, Paris, Tokyo
+Print string array
+
+6) 0,7,1,13,2,8,3,42,4, The answer to life, the universe, and everything.
+
+7) Hello,1,Hello,3,Hello,5,Hello,7,Hello,9
+
+8) Hello,1,World,3,Hello,5,World,7,Hello,9
+
+9) name, Fido, age, 4, trick, rolls over
+
+10) 
+First, I will {step}
+Second, I will {step}
+Third, I will {step}
+Fourth, I will {step}
