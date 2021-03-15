@@ -54,8 +54,8 @@ length([1,2,3,2,3,4,9,8,7,1,5,2])
 
 #8
 def ultimate_analysis(a):
-    print("sumTotal:", sum(a) + ", average:", sum(a)/len(a) + ", minimum:", min(a) + ", maximum", max(a) + ",length:", len(a))
-    return "sumTotal:", sum(a) + ", average:", sum(a)/len(a) + ", minimum:", min(a) + ", maximum", max(a) + ",length:", len(a)
+    print("sumTotal:", str(sum(a)) + ", average:", str(sum(a)/len(a)) + ", minimum:", str(min(a)) + ", maximum", str(max(a)) + ", length:", str(len(a)))
+    return "sumTotal:", str(sum(a)) + ", average:", str(sum(a)/len(a)) + ", minimum:", str(min(a)) + ", maximum", str(max(a)) + ", length:", str(len(a))
 ultimate_analysis([1,2,3,4,5,6,7,8,9,10])
 
 #9
