@@ -44,3 +44,4 @@ class User:
 Mike = User("Mike", "mike@nockops.com")
 Kaesy = User ("Kaesy", "kaesy@nockops.com")
 Mike.make_deposit(100).make_deposit(1000).make_withdrawal(50).account_yield().display_balance()
+Kaesy.make_deposit(1200).make_deposit(100).make_withdrawal(200).account_yield().display_balance()
