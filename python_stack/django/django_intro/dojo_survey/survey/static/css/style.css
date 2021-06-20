@@ -1,0 +1,13 @@
+.p {
+    font-family: 'Courier New', Courier, monospace;
+}
+#survey_container {
+    background: #f7f7f7;
+    width: 970px;
+    height: 1050px;
+    border: 1px black;
+    border-radius: 3px;
+    align-items: center;
+    align-content: center;
+
+}

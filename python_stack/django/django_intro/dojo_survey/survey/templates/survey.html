@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <div class="survey_container">
+        <form action="/" method='POST'>
+            {% csrf_token %}
+            <p>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="location">Dojo Location</label>
+            </p>
+            <p>
+                <form>
+                    <input type="radio" name="Atlanta" id="Atlanta">
+                    <label for="Atlanta">Atlanta</label>
+                    <input type="radio" name="Austin" id="Austin">
+                    <label for="Austin">Austin</label>
+                    <input type="radio" name="Boston" id="Boston">
+                    <label for="Boston">Boston</label>
+                    <input type="radio" name="Chicago" id="Chicago">
+                    <label for="Chicago">Chicago</label>
+                    <input type="radio" name="Las_Vegas" id="Las_Vegas">
+                    <label for="Las_Vegas">Las Vegas</label>
+                    <input type="radio" name="New_York" id="New_York">
+                    <label for="New_York">New York</label>
+                    <input type="radio" name="Pheonix" id="Pheonix">
+                    <label for="Pheonix">Pheonix</label>
+                    <input type="radio" name="Seattle" id="Seattle">
+                    <label for="Seattle">Seattle</label>
+                </form>
+            </p>
+            <p>
+                <label for="languages">Favorite Languages:</label>
+            </p>
+            <p>
+                <input type="checkbox" id="Python">Python
+                <input type="checkbox" id="Java">Java
+                <input type="checkbox" id="Javascript">Javascript
+                <input type="checkbox" id="C#">C#
+                <input type="checkbox" id="Golang">Golang
+                <input type="checkbox" id="Other">Other
+            </p>
+            <p>
+                <label for="comment">Comment (optional):</label>
+            </p>
+            <p>
+                <textarea name="comment" id="comment"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" id="submit" value="Submit Info">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
