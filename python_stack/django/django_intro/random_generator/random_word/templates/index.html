@@ -7,7 +7,9 @@
     <title>Random Word</title>
 </head>
 <body>
-    <h1>Random Word:</h1>
-    <h2>Guesses:</h2>
+    <h1>Random Word: {{request.session.word}} </h1>
+    <h2>Guesses: {{request.session.count}} </h2>
+    
+    <a href="/reset">Reset Count</a>
 </body>
 </html>
